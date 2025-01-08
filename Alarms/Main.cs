@@ -207,6 +207,7 @@ namespace Alarms
         private void Main_Load(object sender, EventArgs e)
         {
             double dpiRatio;
+
             using (Graphics graphics = Graphics.FromHwnd(IntPtr.Zero))
             {
                 float dpiX = graphics.DpiX;
